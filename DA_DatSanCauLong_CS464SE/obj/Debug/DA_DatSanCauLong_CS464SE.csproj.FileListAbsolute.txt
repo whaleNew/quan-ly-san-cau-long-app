@@ -2,9 +2,9 @@ C:\Users\TRIEU TRAN\DA_DatSanCauLong_CS464SE\DA_DatSanCauLong_CS464SE\bin\Debug\
 C:\Users\TRIEU TRAN\DA_DatSanCauLong_CS464SE\DA_DatSanCauLong_CS464SE\bin\Debug\DA_DatSanCauLong_CS464SE.exe
 C:\Users\TRIEU TRAN\DA_DatSanCauLong_CS464SE\DA_DatSanCauLong_CS464SE\bin\Debug\DA_DatSanCauLong_CS464SE.pdb
 C:\Users\TRIEU TRAN\DA_DatSanCauLong_CS464SE\DA_DatSanCauLong_CS464SE\obj\Debug\DA_DatSanCauLong_CS464SE.csproj.AssemblyReference.cache
-C:\Users\TRIEU TRAN\DA_DatSanCauLong_CS464SE\DA_DatSanCauLong_CS464SE\obj\Debug\DA_DatSanCauLong_CS464SE.Form1.resources
 C:\Users\TRIEU TRAN\DA_DatSanCauLong_CS464SE\DA_DatSanCauLong_CS464SE\obj\Debug\DA_DatSanCauLong_CS464SE.Properties.Resources.resources
 C:\Users\TRIEU TRAN\DA_DatSanCauLong_CS464SE\DA_DatSanCauLong_CS464SE\obj\Debug\DA_DatSanCauLong_CS464SE.csproj.GenerateResource.cache
 C:\Users\TRIEU TRAN\DA_DatSanCauLong_CS464SE\DA_DatSanCauLong_CS464SE\obj\Debug\DA_DatSanCauLong_CS464SE.csproj.CoreCompileInputs.cache
 C:\Users\TRIEU TRAN\DA_DatSanCauLong_CS464SE\DA_DatSanCauLong_CS464SE\obj\Debug\DA_DatSanCauLong_CS464SE.exe
 C:\Users\TRIEU TRAN\DA_DatSanCauLong_CS464SE\DA_DatSanCauLong_CS464SE\obj\Debug\DA_DatSanCauLong_CS464SE.pdb
+C:\Users\TRIEU TRAN\DA_DatSanCauLong_CS464SE\DA_DatSanCauLong_CS464SE\obj\Debug\DA_DatSanCauLong_CS464SE.frm_Login.resources

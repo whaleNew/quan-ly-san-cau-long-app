@@ -1,6 +1,6 @@
 ﻿namespace DA_DatSanCauLong_CS464SE
 {
-    partial class Form1
+    partial class frm_Login
     {
         /// <summary>
         /// Required designer variable.
