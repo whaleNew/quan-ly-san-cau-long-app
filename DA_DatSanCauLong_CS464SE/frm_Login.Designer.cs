@@ -36,6 +36,7 @@
             this.btn_Fresh = new System.Windows.Forms.Button();
             this.btn_Exit = new System.Windows.Forms.Button();
             this.btn_Login = new System.Windows.Forms.Button();
+            this.chk_Hienthipass = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // label1
@@ -44,7 +45,7 @@
             this.label1.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(427, 51);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(184, 38);
+            this.label1.Size = new System.Drawing.Size(176, 37);
             this.label1.TabIndex = 0;
             this.label1.Text = "Đăng Nhập";
             // 
@@ -123,11 +124,22 @@
             this.btn_Login.Text = "Đăng nhập";
             this.btn_Login.UseVisualStyleBackColor = false;
             // 
-            // Form1
+            // chk_Hienthipass
+            // 
+            this.chk_Hienthipass.AutoSize = true;
+            this.chk_Hienthipass.Location = new System.Drawing.Point(719, 239);
+            this.chk_Hienthipass.Name = "chk_Hienthipass";
+            this.chk_Hienthipass.Size = new System.Drawing.Size(130, 20);
+            this.chk_Hienthipass.TabIndex = 16;
+            this.chk_Hienthipass.Text = "Hiển thị mật khẩu";
+            this.chk_Hienthipass.UseVisualStyleBackColor = true;
+            // 
+            // frm_Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1028, 591);
+            this.Controls.Add(this.chk_Hienthipass);
             this.Controls.Add(this.btn_Fresh);
             this.Controls.Add(this.btn_Exit);
             this.Controls.Add(this.btn_Login);
@@ -136,7 +148,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.Tia);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "frm_Login";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -153,6 +165,7 @@
         private System.Windows.Forms.Button btn_Fresh;
         private System.Windows.Forms.Button btn_Exit;
         private System.Windows.Forms.Button btn_Login;
+        private System.Windows.Forms.CheckBox chk_Hienthipass;
     }
 }
 
