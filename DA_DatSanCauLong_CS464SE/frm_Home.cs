@@ -30,5 +30,19 @@ namespace DA_DatSanCauLong_CS464SE
                 Application.OpenForms["frm_QuanLySan"].Activate();
             
         }
+
+        private void đặtSânToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (Application.OpenForms["frm_DatSan"] == null)
+            {
+                frm_DatSan frm = new frm_DatSan();
+                frm.MdiParent = this;
+                frm.Show();
+            }
+            else
+
+                Application.OpenForms["frm_DatSan"].Activate();
+
+        }
     }
 }

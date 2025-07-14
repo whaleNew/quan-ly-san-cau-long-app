@@ -16,7 +16,7 @@ namespace DA_DatSanCauLong_CS464SE
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm_DatSan());
+            Application.Run(new frm_Home());
         }
     }
 }

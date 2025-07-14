@@ -55,7 +55,7 @@
             this.trợGiúpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1156, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1156, 30);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -68,7 +68,7 @@
             this.hoáĐơnToolStripMenuItem});
             this.hệThốngToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("hệThốngToolStripMenuItem.Image")));
             this.hệThốngToolStripMenuItem.Name = "hệThốngToolStripMenuItem";
-            this.hệThốngToolStripMenuItem.Size = new System.Drawing.Size(105, 24);
+            this.hệThốngToolStripMenuItem.Size = new System.Drawing.Size(105, 26);
             this.hệThốngToolStripMenuItem.Text = "Hệ thống";
             // 
             // đăngNhậpToolStripMenuItem
@@ -139,6 +139,7 @@
             this.đặtSânToolStripMenuItem.Name = "đặtSânToolStripMenuItem";
             this.đặtSânToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.đặtSânToolStripMenuItem.Text = "Đặt sân";
+            this.đặtSânToolStripMenuItem.Click += new System.EventHandler(this.đặtSânToolStripMenuItem_Click);
             // 
             // trợGiúpToolStripMenuItem
             // 
@@ -151,8 +152,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1156, 699);
             this.Controls.Add(this.menuStrip1);
+            this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frm_Home";
             this.Text = "frm_Home";
