@@ -8,3 +8,8 @@ C:\Users\TRIEU TRAN\DA_DatSanCauLong_CS464SE\DA_DatSanCauLong_CS464SE\obj\Debug\
 C:\Users\TRIEU TRAN\DA_DatSanCauLong_CS464SE\DA_DatSanCauLong_CS464SE\obj\Debug\DA_DatSanCauLong_CS464SE.exe
 C:\Users\TRIEU TRAN\DA_DatSanCauLong_CS464SE\DA_DatSanCauLong_CS464SE\obj\Debug\DA_DatSanCauLong_CS464SE.pdb
 C:\Users\TRIEU TRAN\DA_DatSanCauLong_CS464SE\DA_DatSanCauLong_CS464SE\obj\Debug\DA_DatSanCauLong_CS464SE.frm_Login.resources
+C:\Users\TRIEU TRAN\DA_DatSanCauLong_CS464SE\DA_DatSanCauLong_CS464SE\obj\Debug\DA_DatSanCauLong_CS464SE.frm_Home.resources
+C:\Users\TRIEU TRAN\DA_DatSanCauLong_CS464SE\DA_DatSanCauLong_CS464SE\obj\Debug\DA_DatSanCauLong_CS464SE.frm_QuanLySan.resources
+C:\Users\TRIEU TRAN\DA_DatSanCauLong_CS464SE\DA_DatSanCauLong_CS464SE\obj\Debug\DA_DatSanCauLong_CS464SE.frm_DatSan.resources
+C:\Users\TRIEU TRAN\DA_DatSanCauLong_CS464SE\DA_DatSanCauLong_CS464SE\bin\Debug\DB_QLSan.mdf
+C:\Users\TRIEU TRAN\DA_DatSanCauLong_CS464SE\DA_DatSanCauLong_CS464SE\bin\Debug\DB_QLSan_log.ldf

@@ -3,12 +3,42 @@
   "WorkspaceRootPath": "C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|c:\\users\\trieu tran\\da_datsancaulong_cs464se\\da_datsancaulong_cs464se\\frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|solutionrelative:da_datsancaulong_cs464se\\frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|c:\\users\\trieu tran\\da_datsancaulong_cs464se\\da_datsancaulong_cs464se\\lopdungchung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|solutionrelative:da_datsancaulong_cs464se\\lopdungchung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|c:\\users\\trieu tran\\da_datsancaulong_cs464se\\da_datsancaulong_cs464se\\frm_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\da_datsancaulong_cs464se\\frm_datsan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|solutionrelative:da_datsancaulong_cs464se\\frm_datsan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\da_datsancaulong_cs464se\\frm_datsan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|solutionrelative:da_datsancaulong_cs464se\\frm_datsan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|c:\\users\\trieu tran\\da_datsancaulong_cs464se\\da_datsancaulong_cs464se\\frm_quanlysan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|solutionrelative:da_datsancaulong_cs464se\\frm_quanlysan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\da_datsancaulong_cs464se\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|solutionrelative:da_datsancaulong_cs464se\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_TRIEU_TRAN_DA_DATSANCAULONG_CS464SE_DA_DATSANCAULONG_CS464SE_DB_QLSAN.MDF/True/SqlTable/dbo.SAN.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_TRIEU_TRAN_DA_DATSANCAULONG_CS464SE_DA_DATSANCAULONG_CS464SE_DB_QLSAN.MDF/True/SqlTable/dbo.DATSAN.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\da_datsancaulong_cs464se\\frm_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|solutionrelative:da_datsancaulong_cs464se\\frm_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\da_datsancaulong_cs464se\\frm_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|solutionrelative:da_datsancaulong_cs464se\\frm_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\da_datsancaulong_cs464se\\frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|solutionrelative:da_datsancaulong_cs464se\\frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +48,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 450,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,7 +56,103 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE\\Program.cs",
+              "RelativeDocumentMoniker": "DA_DatSanCauLong_CS464SE\\Program.cs",
+              "ToolTip": "C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE\\Program.cs",
+              "RelativeToolTip": "DA_DatSanCauLong_CS464SE\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T06:32:07.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frm_DatSan.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE\\frm_DatSan.cs",
+              "RelativeDocumentMoniker": "DA_DatSanCauLong_CS464SE\\frm_DatSan.cs",
+              "ToolTip": "C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE\\frm_DatSan.cs [Design]",
+              "RelativeToolTip": "DA_DatSanCauLong_CS464SE\\frm_DatSan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T06:25:36.796Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frm_QuanLySan.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE\\frm_QuanLySan.cs",
+              "RelativeDocumentMoniker": "DA_DatSanCauLong_CS464SE\\frm_QuanLySan.cs",
+              "ToolTip": "C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE\\frm_QuanLySan.cs [Design]",
+              "RelativeToolTip": "DA_DatSanCauLong_CS464SE\\frm_QuanLySan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T09:29:09.764Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "frm_DatSan.cs",
+              "DocumentMoniker": "C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE\\frm_DatSan.cs",
+              "RelativeDocumentMoniker": "DA_DatSanCauLong_CS464SE\\frm_DatSan.cs",
+              "ToolTip": "C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE\\frm_DatSan.cs",
+              "RelativeToolTip": "DA_DatSanCauLong_CS464SE\\frm_DatSan.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwGUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T06:35:00.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LOPDUNGCHUNG.cs",
+              "DocumentMoniker": "C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE\\LOPDUNGCHUNG.cs",
+              "RelativeDocumentMoniker": "DA_DatSanCauLong_CS464SE\\LOPDUNGCHUNG.cs",
+              "ToolTip": "C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE\\LOPDUNGCHUNG.cs*",
+              "RelativeToolTip": "DA_DatSanCauLong_CS464SE\\LOPDUNGCHUNG.cs*",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAC4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T02:45:25.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dbo.SAN [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_TRIEU_TRAN_DA_DATSANCAULONG_CS464SE_DA_DATSANCAULONG_CS464SE_DB_QLSAN.MDF/True/SqlTable/dbo.SAN.sql",
+              "ToolTip": "dbo.SAN [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-07-14T03:04:01.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "dbo.DATSAN [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_TRIEU_TRAN_DA_DATSANCAULONG_CS464SE_DA_DATSANCAULONG_CS464SE_DB_QLSAN.MDF/True/SqlTable/dbo.DATSAN.sql",
+              "ToolTip": "dbo.DATSAN [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-07-14T02:51:39.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frm_Home.cs",
+              "DocumentMoniker": "C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE\\frm_Home.cs",
+              "RelativeDocumentMoniker": "DA_DatSanCauLong_CS464SE\\frm_Home.cs",
+              "ToolTip": "C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE\\frm_Home.cs",
+              "RelativeToolTip": "DA_DatSanCauLong_CS464SE\\frm_Home.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T06:30:56.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "frm_Home.cs [Design]",
               "DocumentMoniker": "C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE\\frm_Home.cs",
               "RelativeDocumentMoniker": "DA_DatSanCauLong_CS464SE\\frm_Home.cs",
@@ -38,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "frm_Login.cs [Design]",
               "DocumentMoniker": "C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE\\frm_Login.cs",
               "RelativeDocumentMoniker": "DA_DatSanCauLong_CS464SE\\frm_Login.cs",
