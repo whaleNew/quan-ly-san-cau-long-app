@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\da_datsancaulong_cs464se\\frm_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|c:\\users\\trieu tran\\da_datsancaulong_cs464se\\da_datsancaulong_cs464se\\frm_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|solutionrelative:da_datsancaulong_cs464se\\frm_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|solutionrelative:da_datsancaulong_cs464se\\frm_datsan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|c:\\users\\trieu tran\\da_datsancaulong_cs464se\\da_datsancaulong_cs464se\\lopdungchung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\da_datsancaulong_cs464se\\lopdungchung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|solutionrelative:da_datsancaulong_cs464se\\lopdungchung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -99,8 +99,7 @@
               "RelativeToolTip": "DA_DatSanCauLong_CS464SE\\frm_Home.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAArwCsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T06:30:56.364Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-04T06:30:56.364Z"
             },
             {
               "$type": "Document",

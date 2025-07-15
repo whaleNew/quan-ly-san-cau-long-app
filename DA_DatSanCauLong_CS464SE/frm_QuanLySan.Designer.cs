@@ -42,12 +42,11 @@
             this.btn_Sua = new System.Windows.Forms.Button();
             this.btn_Xoa = new System.Windows.Forms.Button();
             this.btn_Fresh = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.dtgr_SanCau = new System.Windows.Forms.DataGridView();
+            this.pic_Hinhanh = new System.Windows.Forms.PictureBox();
+            this.btn_Image = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgr_SanCau)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Hinhanh)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -85,7 +84,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(93, 278);
+            this.label4.Location = new System.Drawing.Point(93, 220);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(81, 23);
             this.label4.TabIndex = 3;
@@ -95,7 +94,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(92, 335);
+            this.label5.Location = new System.Drawing.Point(92, 276);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(104, 23);
             this.label5.TabIndex = 4;
@@ -110,6 +109,7 @@
             this.btn_Them.TabIndex = 5;
             this.btn_Them.Text = "Thêm";
             this.btn_Them.UseVisualStyleBackColor = true;
+            this.btn_Them.Click += new System.EventHandler(this.btn_Them_Click);
             // 
             // txt_maSan
             // 
@@ -120,14 +120,14 @@
             // 
             // txt_Status
             // 
-            this.txt_Status.Location = new System.Drawing.Point(269, 337);
+            this.txt_Status.Location = new System.Drawing.Point(269, 276);
             this.txt_Status.Name = "txt_Status";
             this.txt_Status.Size = new System.Drawing.Size(294, 22);
             this.txt_Status.TabIndex = 7;
             // 
             // txt_giaSan
             // 
-            this.txt_giaSan.Location = new System.Drawing.Point(269, 278);
+            this.txt_giaSan.Location = new System.Drawing.Point(269, 222);
             this.txt_giaSan.Name = "txt_giaSan";
             this.txt_giaSan.Size = new System.Drawing.Size(294, 22);
             this.txt_giaSan.TabIndex = 8;
@@ -142,79 +142,76 @@
             // btn_Sua
             // 
             this.btn_Sua.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Sua.Location = new System.Drawing.Point(294, 403);
+            this.btn_Sua.Location = new System.Drawing.Point(330, 403);
             this.btn_Sua.Name = "btn_Sua";
             this.btn_Sua.Size = new System.Drawing.Size(122, 47);
             this.btn_Sua.TabIndex = 10;
             this.btn_Sua.Text = "Sửa";
             this.btn_Sua.UseVisualStyleBackColor = true;
+            this.btn_Sua.Click += new System.EventHandler(this.btn_Sua_Click);
             // 
             // btn_Xoa
             // 
             this.btn_Xoa.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Xoa.Location = new System.Drawing.Point(482, 403);
+            this.btn_Xoa.Location = new System.Drawing.Point(544, 403);
             this.btn_Xoa.Name = "btn_Xoa";
             this.btn_Xoa.Size = new System.Drawing.Size(122, 47);
             this.btn_Xoa.TabIndex = 11;
             this.btn_Xoa.Text = "Xoá";
             this.btn_Xoa.UseVisualStyleBackColor = true;
+            this.btn_Xoa.Click += new System.EventHandler(this.btn_Xoa_Click);
             // 
             // btn_Fresh
             // 
             this.btn_Fresh.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Fresh.Location = new System.Drawing.Point(650, 403);
+            this.btn_Fresh.Location = new System.Drawing.Point(773, 403);
             this.btn_Fresh.Name = "btn_Fresh";
             this.btn_Fresh.Size = new System.Drawing.Size(122, 47);
             this.btn_Fresh.TabIndex = 12;
             this.btn_Fresh.Text = "Làm Mới";
             this.btn_Fresh.UseVisualStyleBackColor = true;
+            this.btn_Fresh.Click += new System.EventHandler(this.btn_Fresh_Click);
             // 
-            // dataGridView1
+            // dtgr_SanCau
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(96, 482);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(892, 180);
-            this.dataGridView1.TabIndex = 13;
+            this.dtgr_SanCau.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgr_SanCau.Location = new System.Drawing.Point(96, 482);
+            this.dtgr_SanCau.Name = "dtgr_SanCau";
+            this.dtgr_SanCau.RowHeadersWidth = 51;
+            this.dtgr_SanCau.RowTemplate.Height = 24;
+            this.dtgr_SanCau.Size = new System.Drawing.Size(892, 180);
+            this.dtgr_SanCau.TabIndex = 13;
+            this.dtgr_SanCau.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgr_SanCau_CellClick);
             // 
-            // label6
+            // pic_Hinhanh
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(93, 222);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(93, 23);
-            this.label6.TabIndex = 14;
-            this.label6.Text = "Hình ảnh:";
+            this.pic_Hinhanh.Image = ((System.Drawing.Image)(resources.GetObject("pic_Hinhanh.Image")));
+            this.pic_Hinhanh.Location = new System.Drawing.Point(675, 105);
+            this.pic_Hinhanh.Name = "pic_Hinhanh";
+            this.pic_Hinhanh.Size = new System.Drawing.Size(338, 251);
+            this.pic_Hinhanh.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic_Hinhanh.TabIndex = 16;
+            this.pic_Hinhanh.TabStop = false;
             // 
-            // textBox1
+            // btn_Image
             // 
-            this.textBox1.Location = new System.Drawing.Point(269, 222);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(294, 22);
-            this.textBox1.TabIndex = 15;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(650, 107);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(338, 251);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 16;
-            this.pictureBox1.TabStop = false;
+            this.btn_Image.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Image.Location = new System.Drawing.Point(544, 329);
+            this.btn_Image.Name = "btn_Image";
+            this.btn_Image.Size = new System.Drawing.Size(114, 27);
+            this.btn_Image.TabIndex = 17;
+            this.btn_Image.Text = "Chọn Ảnh";
+            this.btn_Image.UseVisualStyleBackColor = true;
+            this.btn_Image.Click += new System.EventHandler(this.btn_Image_Click);
             // 
             // frm_QuanLySan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1039, 698);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.btn_Image);
+            this.Controls.Add(this.pic_Hinhanh);
+            this.Controls.Add(this.dtgr_SanCau);
             this.Controls.Add(this.btn_Fresh);
             this.Controls.Add(this.btn_Xoa);
             this.Controls.Add(this.btn_Sua);
@@ -230,8 +227,9 @@
             this.Controls.Add(this.label1);
             this.Name = "frm_QuanLySan";
             this.Text = "frm_QuanLySan";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Load += new System.EventHandler(this.frm_QuanLySan_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dtgr_SanCau)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Hinhanh)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -252,9 +250,8 @@
         private System.Windows.Forms.Button btn_Sua;
         private System.Windows.Forms.Button btn_Xoa;
         private System.Windows.Forms.Button btn_Fresh;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.DataGridView dtgr_SanCau;
+        private System.Windows.Forms.PictureBox pic_Hinhanh;
+        private System.Windows.Forms.Button btn_Image;
     }
 }
