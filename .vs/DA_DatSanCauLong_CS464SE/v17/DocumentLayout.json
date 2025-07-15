@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\da_datsancaulong_cs464se\\lopdungchung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|solutionrelative:da_datsancaulong_cs464se\\lopdungchung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|c:\\users\\trieu tran\\da_datsancaulong_cs464se\\da_datsancaulong_cs464se\\frm_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|solutionrelative:da_datsancaulong_cs464se\\frm_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\da_datsancaulong_cs464se\\frm_datsan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|solutionrelative:da_datsancaulong_cs464se\\frm_datsan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\da_datsancaulong_cs464se\\lopdungchung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|solutionrelative:da_datsancaulong_cs464se\\lopdungchung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\da_datsancaulong_cs464se\\frm_datsan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -45,7 +45,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 450,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -53,7 +53,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "frm_DatSan.cs",
               "DocumentMoniker": "C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE\\frm_DatSan.cs",
               "RelativeDocumentMoniker": "DA_DatSanCauLong_CS464SE\\frm_DatSan.cs",
@@ -66,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "LOPDUNGCHUNG.cs",
               "DocumentMoniker": "C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE\\LOPDUNGCHUNG.cs",
               "RelativeDocumentMoniker": "DA_DatSanCauLong_CS464SE\\LOPDUNGCHUNG.cs",
@@ -79,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "frm_Home.cs [Design]",
               "DocumentMoniker": "C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE\\frm_Home.cs",
               "RelativeDocumentMoniker": "DA_DatSanCauLong_CS464SE\\frm_Home.cs",
@@ -91,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "frm_Home.cs",
               "DocumentMoniker": "C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE\\frm_Home.cs",
               "RelativeDocumentMoniker": "DA_DatSanCauLong_CS464SE\\frm_Home.cs",
@@ -103,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE\\Program.cs",
               "RelativeDocumentMoniker": "DA_DatSanCauLong_CS464SE\\Program.cs",
