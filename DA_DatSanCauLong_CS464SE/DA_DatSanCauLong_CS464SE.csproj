@@ -73,6 +73,12 @@
     <Compile Include="frm_Home.Designer.cs">
       <DependentUpon>frm_Home.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_LichSuDatSan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_LichSuDatSan.Designer.cs">
+      <DependentUpon>frm_LichSuDatSan.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +99,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Home.resx">
       <DependentUpon>frm_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_LichSuDatSan.resx">
+      <DependentUpon>frm_LichSuDatSan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Login.resx">
       <DependentUpon>frm_Login.cs</DependentUpon>
