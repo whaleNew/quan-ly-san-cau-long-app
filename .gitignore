@@ -1,0 +1,19 @@
+# Visual Studio temp files
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.vsidx
+*.sqlite
+*.log
+*.db
+*.ldf
+*.mdf
+
+# VS Copilot & cache
+CopilotIndices/
+*.json
+
+# Other
+*.Backup
