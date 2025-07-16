@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\da_datsancaulong_cs464se\\frm_quanlysan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|c:\\users\\trieu tran\\da_datsancaulong_cs464se\\da_datsancaulong_cs464se\\frm_quanlysan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|solutionrelative:da_datsancaulong_cs464se\\frm_quanlysan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|c:\\users\\trieu tran\\da_datsancaulong_cs464se\\da_datsancaulong_cs464se\\frm_lichsudatsan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\da_datsancaulong_cs464se\\frm_lichsudatsan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CF561D8B-2DB9-4375-A264-3971287C5B83}|DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE.csproj|solutionrelative:da_datsancaulong_cs464se\\frm_lichsudatsan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -65,8 +65,8 @@
               "Title": "frm_LichSuDatSan.cs [Design]",
               "DocumentMoniker": "C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE\\frm_LichSuDatSan.cs",
               "RelativeDocumentMoniker": "DA_DatSanCauLong_CS464SE\\frm_LichSuDatSan.cs",
-              "ToolTip": "C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE\\frm_LichSuDatSan.cs [Design]*",
-              "RelativeToolTip": "DA_DatSanCauLong_CS464SE\\frm_LichSuDatSan.cs [Design]*",
+              "ToolTip": "C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE\\frm_LichSuDatSan.cs [Design]",
+              "RelativeToolTip": "DA_DatSanCauLong_CS464SE\\frm_LichSuDatSan.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-15T03:32:11.943Z",
               "EditorCaption": " [Design]"
@@ -127,8 +127,8 @@
               "Title": "frm_LichSuDatSan.cs",
               "DocumentMoniker": "C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE\\frm_LichSuDatSan.cs",
               "RelativeDocumentMoniker": "DA_DatSanCauLong_CS464SE\\frm_LichSuDatSan.cs",
-              "ToolTip": "C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE\\frm_LichSuDatSan.cs*",
-              "RelativeToolTip": "DA_DatSanCauLong_CS464SE\\frm_LichSuDatSan.cs*",
+              "ToolTip": "C:\\Users\\TRIEU TRAN\\DA_DatSanCauLong_CS464SE\\DA_DatSanCauLong_CS464SE\\frm_LichSuDatSan.cs",
+              "RelativeToolTip": "DA_DatSanCauLong_CS464SE\\frm_LichSuDatSan.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-15T03:32:06.213Z",
