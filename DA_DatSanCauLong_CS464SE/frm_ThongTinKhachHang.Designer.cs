@@ -40,7 +40,7 @@
             this.dtgr_DanhSachKhachHang = new System.Windows.Forms.DataGridView();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_MaKH = new System.Windows.Forms.TextBox();
             this.txt_SoDienThoai = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.dt_NgaySinh = new System.Windows.Forms.DateTimePicker();
@@ -76,6 +76,7 @@
             this.btn_Thoat.TabIndex = 4;
             this.btn_Thoat.Text = "Thoát";
             this.btn_Thoat.UseVisualStyleBackColor = true;
+            this.btn_Thoat.Click += new System.EventHandler(this.btn_Thoat_Click);
             // 
             // btn_Xoa
             // 
@@ -96,6 +97,7 @@
             this.btn_Sua.TabIndex = 2;
             this.btn_Sua.Text = "Sửa";
             this.btn_Sua.UseVisualStyleBackColor = true;
+            this.btn_Sua.Click += new System.EventHandler(this.btn_Sua_Click);
             // 
             // btn_Them
             // 
@@ -106,6 +108,7 @@
             this.btn_Them.TabIndex = 1;
             this.btn_Them.Text = "Thêm";
             this.btn_Them.UseVisualStyleBackColor = true;
+            this.btn_Them.Click += new System.EventHandler(this.btn_Them_Click);
             // 
             // groupBox4
             // 
@@ -159,6 +162,7 @@
             this.dtgr_DanhSachKhachHang.RowTemplate.Height = 24;
             this.dtgr_DanhSachKhachHang.Size = new System.Drawing.Size(953, 298);
             this.dtgr_DanhSachKhachHang.TabIndex = 0;
+            this.dtgr_DanhSachKhachHang.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgr_DanhSachKhachHang_CellContentClick);
             // 
             // groupBox2
             // 
@@ -171,12 +175,12 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Danh Sách Khách Hàng";
             // 
-            // textBox1
+            // txt_MaKH
             // 
-            this.textBox1.Location = new System.Drawing.Point(214, 126);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(153, 30);
-            this.textBox1.TabIndex = 26;
+            this.txt_MaKH.Location = new System.Drawing.Point(214, 126);
+            this.txt_MaKH.Name = "txt_MaKH";
+            this.txt_MaKH.Size = new System.Drawing.Size(153, 30);
+            this.txt_MaKH.TabIndex = 26;
             // 
             // txt_SoDienThoai
             // 
@@ -249,7 +253,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txt_MaKH);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.txt_SoDienThoai);
             this.groupBox1.Controls.Add(this.label6);
@@ -303,7 +307,7 @@
         private System.Windows.Forms.DataGridView dtgr_DanhSachKhachHang;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_MaKH;
         private System.Windows.Forms.TextBox txt_SoDienThoai;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.DateTimePicker dt_NgaySinh;
