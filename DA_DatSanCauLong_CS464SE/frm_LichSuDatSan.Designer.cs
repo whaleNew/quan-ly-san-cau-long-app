@@ -53,57 +53,60 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(310, 9);
+            this.label1.Location = new System.Drawing.Point(276, 7);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(146, 20);
+            this.label1.Size = new System.Drawing.Size(119, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "LỊCH SỬ ĐẶT SÂN";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(52, 45);
+            this.label2.Location = new System.Drawing.Point(46, 36);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(123, 20);
+            this.label2.Size = new System.Drawing.Size(103, 16);
             this.label2.TabIndex = 1;
             this.label2.Text = "Tên khách hàng";
             // 
             // txt_tenkh
             // 
-            this.txt_tenkh.Location = new System.Drawing.Point(234, 45);
+            this.txt_tenkh.Location = new System.Drawing.Point(170, 36);
+            this.txt_tenkh.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txt_tenkh.Name = "txt_tenkh";
-            this.txt_tenkh.Size = new System.Drawing.Size(207, 26);
+            this.txt_tenkh.Size = new System.Drawing.Size(184, 22);
             this.txt_tenkh.TabIndex = 2;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(52, 101);
+            this.label3.Location = new System.Drawing.Point(46, 81);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(73, 20);
+            this.label3.Size = new System.Drawing.Size(63, 16);
             this.label3.TabIndex = 3;
             this.label3.Text = "Thời gian";
             // 
             // dtp_batdau
             // 
-            this.dtp_batdau.Location = new System.Drawing.Point(191, 96);
+            this.dtp_batdau.Location = new System.Drawing.Point(170, 77);
+            this.dtp_batdau.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtp_batdau.Name = "dtp_batdau";
-            this.dtp_batdau.Size = new System.Drawing.Size(167, 26);
+            this.dtp_batdau.Size = new System.Drawing.Size(149, 22);
             this.dtp_batdau.TabIndex = 4;
             // 
             // dtp_ketthuc
             // 
-            this.dtp_ketthuc.Location = new System.Drawing.Point(461, 96);
+            this.dtp_ketthuc.Location = new System.Drawing.Point(410, 77);
+            this.dtp_ketthuc.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtp_ketthuc.Name = "dtp_ketthuc";
-            this.dtp_ketthuc.Size = new System.Drawing.Size(167, 26);
+            this.dtp_ketthuc.Size = new System.Drawing.Size(149, 22);
             this.dtp_ketthuc.TabIndex = 5;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(61, 157);
+            this.label4.Location = new System.Drawing.Point(54, 126);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(59, 20);
+            this.label4.Size = new System.Drawing.Size(49, 16);
             this.label4.TabIndex = 6;
             this.label4.Text = "Sân số";
             // 
@@ -117,16 +120,18 @@
             "Sân 4",
             "Sân 5",
             "Sân 6"});
-            this.cb_san.Location = new System.Drawing.Point(191, 149);
+            this.cb_san.Location = new System.Drawing.Point(170, 119);
+            this.cb_san.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cb_san.Name = "cb_san";
-            this.cb_san.Size = new System.Drawing.Size(121, 28);
+            this.cb_san.Size = new System.Drawing.Size(108, 24);
             this.cb_san.TabIndex = 7;
             // 
             // btn_tim
             // 
-            this.btn_tim.Location = new System.Drawing.Point(257, 206);
+            this.btn_tim.Location = new System.Drawing.Point(228, 165);
+            this.btn_tim.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_tim.Name = "btn_tim";
-            this.btn_tim.Size = new System.Drawing.Size(111, 42);
+            this.btn_tim.Size = new System.Drawing.Size(99, 34);
             this.btn_tim.TabIndex = 8;
             this.btn_tim.Text = "Tìm kiếm";
             this.btn_tim.UseVisualStyleBackColor = true;
@@ -144,66 +149,85 @@
             this.san,
             this.status,
             this.note});
-            this.dtgv_lichsudatsan.Location = new System.Drawing.Point(12, 272);
+            this.dtgv_lichsudatsan.Location = new System.Drawing.Point(12, 227);
+            this.dtgv_lichsudatsan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtgv_lichsudatsan.Name = "dtgv_lichsudatsan";
+            this.dtgv_lichsudatsan.RowHeadersWidth = 51;
             this.dtgv_lichsudatsan.RowTemplate.Height = 28;
-            this.dtgv_lichsudatsan.Size = new System.Drawing.Size(843, 150);
+            this.dtgv_lichsudatsan.Size = new System.Drawing.Size(749, 120);
             this.dtgv_lichsudatsan.TabIndex = 9;
             // 
             // stt
             // 
             this.stt.HeaderText = "STT";
+            this.stt.MinimumWidth = 6;
             this.stt.Name = "stt";
+            this.stt.Width = 125;
             // 
             // kh
             // 
             this.kh.HeaderText = "Tên khách hàng";
+            this.kh.MinimumWidth = 6;
             this.kh.Name = "kh";
+            this.kh.Width = 125;
             // 
             // ngaydat
             // 
             this.ngaydat.HeaderText = "Ngày đặt";
+            this.ngaydat.MinimumWidth = 6;
             this.ngaydat.Name = "ngaydat";
+            this.ngaydat.Width = 125;
             // 
             // giờ1
             // 
             this.giờ1.HeaderText = "Giờ bắt đầu";
+            this.giờ1.MinimumWidth = 6;
             this.giờ1.Name = "giờ1";
+            this.giờ1.Width = 125;
             // 
             // gio2
             // 
             this.gio2.HeaderText = "Giờ kết thúc";
+            this.gio2.MinimumWidth = 6;
             this.gio2.Name = "gio2";
+            this.gio2.Width = 125;
             // 
             // san
             // 
             this.san.HeaderText = "Sân";
+            this.san.MinimumWidth = 6;
             this.san.Name = "san";
+            this.san.Width = 125;
             // 
             // status
             // 
             this.status.HeaderText = "Trạng thái";
+            this.status.MinimumWidth = 6;
             this.status.Name = "status";
+            this.status.Width = 125;
             // 
             // note
             // 
             this.note.HeaderText = "Ghi chú";
+            this.note.MinimumWidth = 6;
             this.note.Name = "note";
+            this.note.Width = 125;
             // 
             // btn_lammoi
             // 
-            this.btn_lammoi.Location = new System.Drawing.Point(424, 206);
+            this.btn_lammoi.Location = new System.Drawing.Point(377, 165);
+            this.btn_lammoi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_lammoi.Name = "btn_lammoi";
-            this.btn_lammoi.Size = new System.Drawing.Size(96, 42);
+            this.btn_lammoi.Size = new System.Drawing.Size(85, 34);
             this.btn_lammoi.TabIndex = 10;
             this.btn_lammoi.Text = "Làm mới";
             this.btn_lammoi.UseVisualStyleBackColor = true;
             // 
             // frm_LichSuDatSan
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(867, 675);
+            this.ClientSize = new System.Drawing.Size(771, 540);
             this.Controls.Add(this.btn_lammoi);
             this.Controls.Add(this.dtgv_lichsudatsan);
             this.Controls.Add(this.btn_tim);
@@ -215,6 +239,7 @@
             this.Controls.Add(this.txt_tenkh);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frm_LichSuDatSan";
             this.Text = "frm_LichSuDatSan";
             this.Load += new System.EventHandler(this.frm_LichSuDatSan_Load);
