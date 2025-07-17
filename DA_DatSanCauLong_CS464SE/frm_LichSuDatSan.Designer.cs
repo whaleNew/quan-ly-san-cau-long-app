@@ -32,21 +32,15 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txt_tenkh = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.dtp_batdau = new System.Windows.Forms.DateTimePicker();
-            this.dtp_ketthuc = new System.Windows.Forms.DateTimePicker();
             this.label4 = new System.Windows.Forms.Label();
-            this.cb_san = new System.Windows.Forms.ComboBox();
             this.btn_tim = new System.Windows.Forms.Button();
-            this.dtgv_lichsudatsan = new System.Windows.Forms.DataGridView();
-            this.stt = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.kh = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ngaydat = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.giờ1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.gio2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.san = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.status = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.note = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btn_lammoi = new System.Windows.Forms.Button();
+            this.dtgv_lichsudatsan = new System.Windows.Forms.DataGridView();
+            this.txt_giobatdau = new System.Windows.Forms.TextBox();
+            this.txt_gioketthuc = new System.Windows.Forms.TextBox();
+            this.txt_ngaydat = new System.Windows.Forms.TextBox();
+            this.txt_San = new System.Windows.Forms.TextBox();
+            this.txt_search = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dtgv_lichsudatsan)).BeginInit();
             this.SuspendLayout();
             // 
@@ -85,22 +79,6 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Thời gian";
             // 
-            // dtp_batdau
-            // 
-            this.dtp_batdau.Location = new System.Drawing.Point(170, 77);
-            this.dtp_batdau.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.dtp_batdau.Name = "dtp_batdau";
-            this.dtp_batdau.Size = new System.Drawing.Size(149, 22);
-            this.dtp_batdau.TabIndex = 4;
-            // 
-            // dtp_ketthuc
-            // 
-            this.dtp_ketthuc.Location = new System.Drawing.Point(410, 77);
-            this.dtp_ketthuc.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.dtp_ketthuc.Name = "dtp_ketthuc";
-            this.dtp_ketthuc.Size = new System.Drawing.Size(149, 22);
-            this.dtp_ketthuc.TabIndex = 5;
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -110,131 +88,93 @@
             this.label4.TabIndex = 6;
             this.label4.Text = "Sân số";
             // 
-            // cb_san
-            // 
-            this.cb_san.FormattingEnabled = true;
-            this.cb_san.Items.AddRange(new object[] {
-            "Sân 1",
-            "Sân 2",
-            "Sân 3",
-            "Sân 4",
-            "Sân 5",
-            "Sân 6"});
-            this.cb_san.Location = new System.Drawing.Point(170, 119);
-            this.cb_san.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.cb_san.Name = "cb_san";
-            this.cb_san.Size = new System.Drawing.Size(108, 24);
-            this.cb_san.TabIndex = 7;
-            // 
             // btn_tim
             // 
-            this.btn_tim.Location = new System.Drawing.Point(228, 165);
+            this.btn_tim.Location = new System.Drawing.Point(645, 204);
             this.btn_tim.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_tim.Name = "btn_tim";
-            this.btn_tim.Size = new System.Drawing.Size(99, 34);
+            this.btn_tim.Size = new System.Drawing.Size(80, 22);
             this.btn_tim.TabIndex = 8;
             this.btn_tim.Text = "Tìm kiếm";
             this.btn_tim.UseVisualStyleBackColor = true;
             this.btn_tim.Click += new System.EventHandler(this.btn_tim_Click);
             // 
-            // dtgv_lichsudatsan
-            // 
-            this.dtgv_lichsudatsan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgv_lichsudatsan.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.stt,
-            this.kh,
-            this.ngaydat,
-            this.giờ1,
-            this.gio2,
-            this.san,
-            this.status,
-            this.note});
-            this.dtgv_lichsudatsan.Location = new System.Drawing.Point(12, 227);
-            this.dtgv_lichsudatsan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.dtgv_lichsudatsan.Name = "dtgv_lichsudatsan";
-            this.dtgv_lichsudatsan.RowHeadersWidth = 51;
-            this.dtgv_lichsudatsan.RowTemplate.Height = 28;
-            this.dtgv_lichsudatsan.Size = new System.Drawing.Size(749, 120);
-            this.dtgv_lichsudatsan.TabIndex = 9;
-            // 
-            // stt
-            // 
-            this.stt.HeaderText = "STT";
-            this.stt.MinimumWidth = 6;
-            this.stt.Name = "stt";
-            this.stt.Width = 125;
-            // 
-            // kh
-            // 
-            this.kh.HeaderText = "Tên khách hàng";
-            this.kh.MinimumWidth = 6;
-            this.kh.Name = "kh";
-            this.kh.Width = 125;
-            // 
-            // ngaydat
-            // 
-            this.ngaydat.HeaderText = "Ngày đặt";
-            this.ngaydat.MinimumWidth = 6;
-            this.ngaydat.Name = "ngaydat";
-            this.ngaydat.Width = 125;
-            // 
-            // giờ1
-            // 
-            this.giờ1.HeaderText = "Giờ bắt đầu";
-            this.giờ1.MinimumWidth = 6;
-            this.giờ1.Name = "giờ1";
-            this.giờ1.Width = 125;
-            // 
-            // gio2
-            // 
-            this.gio2.HeaderText = "Giờ kết thúc";
-            this.gio2.MinimumWidth = 6;
-            this.gio2.Name = "gio2";
-            this.gio2.Width = 125;
-            // 
-            // san
-            // 
-            this.san.HeaderText = "Sân";
-            this.san.MinimumWidth = 6;
-            this.san.Name = "san";
-            this.san.Width = 125;
-            // 
-            // status
-            // 
-            this.status.HeaderText = "Trạng thái";
-            this.status.MinimumWidth = 6;
-            this.status.Name = "status";
-            this.status.Width = 125;
-            // 
-            // note
-            // 
-            this.note.HeaderText = "Ghi chú";
-            this.note.MinimumWidth = 6;
-            this.note.Name = "note";
-            this.note.Width = 125;
-            // 
             // btn_lammoi
             // 
-            this.btn_lammoi.Location = new System.Drawing.Point(377, 165);
+            this.btn_lammoi.Location = new System.Drawing.Point(344, 160);
             this.btn_lammoi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_lammoi.Name = "btn_lammoi";
             this.btn_lammoi.Size = new System.Drawing.Size(85, 34);
             this.btn_lammoi.TabIndex = 10;
             this.btn_lammoi.Text = "Làm mới";
             this.btn_lammoi.UseVisualStyleBackColor = true;
+            this.btn_lammoi.Click += new System.EventHandler(this.btn_lammoi_Click);
+            // 
+            // dtgv_lichsudatsan
+            // 
+            this.dtgv_lichsudatsan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgv_lichsudatsan.Location = new System.Drawing.Point(57, 242);
+            this.dtgv_lichsudatsan.Name = "dtgv_lichsudatsan";
+            this.dtgv_lichsudatsan.RowHeadersWidth = 51;
+            this.dtgv_lichsudatsan.RowTemplate.Height = 24;
+            this.dtgv_lichsudatsan.Size = new System.Drawing.Size(668, 150);
+            this.dtgv_lichsudatsan.TabIndex = 11;
+            this.dtgv_lichsudatsan.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgv_lichsudatsan_CellClick);
+            // 
+            // txt_giobatdau
+            // 
+            this.txt_giobatdau.Location = new System.Drawing.Point(170, 75);
+            this.txt_giobatdau.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txt_giobatdau.Name = "txt_giobatdau";
+            this.txt_giobatdau.Size = new System.Drawing.Size(184, 22);
+            this.txt_giobatdau.TabIndex = 12;
+            // 
+            // txt_gioketthuc
+            // 
+            this.txt_gioketthuc.Location = new System.Drawing.Point(433, 78);
+            this.txt_gioketthuc.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txt_gioketthuc.Name = "txt_gioketthuc";
+            this.txt_gioketthuc.Size = new System.Drawing.Size(184, 22);
+            this.txt_gioketthuc.TabIndex = 13;
+            // 
+            // txt_ngaydat
+            // 
+            this.txt_ngaydat.Location = new System.Drawing.Point(433, 30);
+            this.txt_ngaydat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txt_ngaydat.Name = "txt_ngaydat";
+            this.txt_ngaydat.Size = new System.Drawing.Size(184, 22);
+            this.txt_ngaydat.TabIndex = 14;
+            // 
+            // txt_San
+            // 
+            this.txt_San.Location = new System.Drawing.Point(170, 126);
+            this.txt_San.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txt_San.Name = "txt_San";
+            this.txt_San.Size = new System.Drawing.Size(91, 22);
+            this.txt_San.TabIndex = 15;
+            // 
+            // txt_search
+            // 
+            this.txt_search.Location = new System.Drawing.Point(473, 204);
+            this.txt_search.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txt_search.Name = "txt_search";
+            this.txt_search.Size = new System.Drawing.Size(166, 22);
+            this.txt_search.TabIndex = 16;
             // 
             // frm_LichSuDatSan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(771, 540);
-            this.Controls.Add(this.btn_lammoi);
+            this.Controls.Add(this.txt_search);
+            this.Controls.Add(this.txt_San);
+            this.Controls.Add(this.txt_ngaydat);
+            this.Controls.Add(this.txt_gioketthuc);
+            this.Controls.Add(this.txt_giobatdau);
             this.Controls.Add(this.dtgv_lichsudatsan);
+            this.Controls.Add(this.btn_lammoi);
             this.Controls.Add(this.btn_tim);
-            this.Controls.Add(this.cb_san);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.dtp_ketthuc);
-            this.Controls.Add(this.dtp_batdau);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txt_tenkh);
             this.Controls.Add(this.label2);
@@ -255,20 +195,14 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txt_tenkh;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.DateTimePicker dtp_batdau;
-        private System.Windows.Forms.DateTimePicker dtp_ketthuc;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox cb_san;
         private System.Windows.Forms.Button btn_tim;
-        private System.Windows.Forms.DataGridView dtgv_lichsudatsan;
-        private System.Windows.Forms.DataGridViewTextBoxColumn stt;
-        private System.Windows.Forms.DataGridViewTextBoxColumn kh;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ngaydat;
-        private System.Windows.Forms.DataGridViewTextBoxColumn giờ1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn gio2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn san;
-        private System.Windows.Forms.DataGridViewTextBoxColumn status;
-        private System.Windows.Forms.DataGridViewTextBoxColumn note;
         private System.Windows.Forms.Button btn_lammoi;
+        private System.Windows.Forms.DataGridView dtgv_lichsudatsan;
+        private System.Windows.Forms.TextBox txt_giobatdau;
+        private System.Windows.Forms.TextBox txt_gioketthuc;
+        private System.Windows.Forms.TextBox txt_ngaydat;
+        private System.Windows.Forms.TextBox txt_San;
+        private System.Windows.Forms.TextBox txt_search;
     }
 }

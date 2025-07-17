@@ -80,6 +80,7 @@
             // 
             this.txt_pass.Location = new System.Drawing.Point(388, 238);
             this.txt_pass.Name = "txt_pass";
+            this.txt_pass.PasswordChar = '*';
             this.txt_pass.Size = new System.Drawing.Size(284, 22);
             this.txt_pass.TabIndex = 4;
             // 
@@ -123,6 +124,7 @@
             this.btn_Login.TabIndex = 13;
             this.btn_Login.Text = "Đăng nhập";
             this.btn_Login.UseVisualStyleBackColor = false;
+            this.btn_Login.Click += new System.EventHandler(this.btn_Login_Click);
             // 
             // chk_Hienthipass
             // 
